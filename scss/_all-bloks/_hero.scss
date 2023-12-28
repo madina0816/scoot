@@ -1,0 +1,73 @@
+.hero {
+    margin-top: 21px;
+    background: url("../../asserts/img/abackgraund.jpg ");
+    background-repeat: no-repeat;
+    padding: 153px 0 0px 105px;
+    position: relative;
+
+    h1 {
+
+        width: 500px;
+        color: #FFF;
+        font-family: Space Mono;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+    }
+
+   
+
+    p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 155px;
+        width: 405px;
+        color: #FFF;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    button {
+        margin-left: 101px;
+        margin-bottom: 152px;
+        width: 180px;
+        height: 53px;
+        height: 53px;
+        background: #FCB72B;
+        color: #FFF;
+        border: transparent;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    button:active {
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+        background-color: transparent;
+
+    }
+    &-img {
+        position: absolute;
+       left: 0;
+       top:53%;
+    }
+
+    &-path {
+     position: absolute;   
+right: 15%;
+top: 53%;
+    }
+    &-svg{
+position: absolute;
+right: 15%;
+top: 63%;
+    }
+}
